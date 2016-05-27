@@ -201,7 +201,7 @@ export default class App extends React.Component {
     this.setState({
       editingTab: tabKey
     }, () => {
-      React.findDOMNode(this.refs.editingTabNameInput).focus();
+      ReactDOM.findDOMNode(this.refs.editingTabNameInput).focus();
     });
   }
 
